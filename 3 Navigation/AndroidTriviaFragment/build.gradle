@@ -29,6 +29,9 @@ buildscript {
         jcenter()
     }
     dependencies {
+        //adding the safe-args dependency to the project Gradle file
+        classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
+
         classpath "com.android.tools.build:gradle:$gradleVersion"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
